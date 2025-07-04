@@ -1,4 +1,8 @@
 {
+  "compilerOptions": {
+    "jsx": "react-jsx", // or "react" for older React versions
+    "types": ["react", "react-dom"]
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
